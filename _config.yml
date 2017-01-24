@@ -16,7 +16,7 @@
 title: The 11th Letter
 email: marcio.gualtieri@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Always be functional.
+  Be functional. Always.
 baseurl: "/blog"
 url: "https://marciogualtieri.github.io"
 twitter_username: gualtierimarcio
