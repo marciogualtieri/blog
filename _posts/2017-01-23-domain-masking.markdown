@@ -48,7 +48,7 @@ A more user friendly way to do this is perhaps by extracting all links from a pa
 
 ![Link Klipper CSV File]({{ site.url }}/{{ site.baseurl }}/assets/linkklipper1.png)
 
-It should be more or less obvious to see if a redirection to another domain happened:
+It should be more or less obvious to see if a redirection to another domain happened.
 
 There are other more sophisticated ways to do domain masking though: Using a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) for instance:
 
