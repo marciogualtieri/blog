@@ -25,7 +25,7 @@ Jerks could create a domain named "www.wearecool.com" for instance and keep the 
 
 ![We're Pretending to be Cool, but We're Actually Jerks!]({{ site.url }}/{{ site.baseurl }}/assets/wearecool1.png)
 
-When a jerk types "www.wearejerks.com" in their web browsers, they would be directed to "www.wearegood.com" and the user's
+When a jerk types "www.wearejerks.com" in their web browsers, they would be directed to "www.wearecool.com" and the user's
 URL would not change.
 
 ![We Still are Jerks!]({{ site.url }}/{{ site.baseurl }}/assets/wearejerks1.png)
@@ -42,7 +42,7 @@ All you need to do is open the following link in a tab in your browser (Chrome):
 
 After that, you could open the website and watch all calls required to render the page, including the redirection calls we've talked about (the masked ones).
 
-In our example, even though we could not see "www.wearecool.com" in the browser (in the URL field and even when we hover the mouser pointer over page links, if [URL rewriting](https://en.wikipedia.org/wiki/URL_rewriting) is being used), we should still be able to see calls to "www.wearecool.com" using tools such as Chrome Net-Internals Events or [Chrome Developer](https://developer.chrome.com/devtools) Tools.
+In our example, even though we could not see "www.wearecool.com" in the browser (in the URL field and even when we hover the mouser pointer over page links, if [URL rewriting](https://en.wikipedia.org/wiki/URL_rewriting) is being used), we should still be able to see calls to "www.wearecool.com" using tools such as Chrome Net-Internals Events or [Chrome Developer Tools](https://developer.chrome.com/devtools).
 
 A more user friendly way to do this is perhaps by extracting all links from a page using [Link Klipper](http://www.codebox.in/products/linkklipper/), which enables you to save all extracted links to a `*.csv` file, which can be opened with a simple plain text or spreadsheet editor, such as Text Editor, Notepad, [LibreOffice Calc](https://en.wikipedia.org/wiki/LibreOffice_Calc) or Excel:
 
