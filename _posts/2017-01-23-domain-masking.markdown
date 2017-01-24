@@ -61,7 +61,7 @@ There are many on-line tools to extract information about a server, one of them 
 
 ![Browser Spy]({{ site.url }}/{{ site.baseurl }}/assets/browserspy1.png)
 
-You will notice the field "Web Server: ECS ECS (oxr/8382)", which means that this particular server is hosted by
+You will notice the field "Web Server: ECS (oxr/8382)", which means that this particular server is hosted by
 Amazon.com's cloud. If the "Web Server" was ["Nginx"](https://en.wikipedia.org/wiki/Nginx), that would be evidence that a reverse proxy is being used, but given that is hosted in Amazon.com's EC2 cloud, it's not possible to tell (could be the case that the ECS server is actually running a "Nginx" instance).
 
 Another way to get more information about the web-site is by using ["Build With"](https://builtwith.com), another on-line tool. Just navigate to "Build With" and type the domain you want to inspect:
